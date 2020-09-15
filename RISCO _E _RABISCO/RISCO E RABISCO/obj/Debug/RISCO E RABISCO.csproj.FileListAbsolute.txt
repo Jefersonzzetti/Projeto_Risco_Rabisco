@@ -1,0 +1,16 @@
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\bin\Debug\RISCO E RABISCO.exe.config
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\bin\Debug\RISCO E RABISCO.exe
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\bin\Debug\RISCO E RABISCO.pdb
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO E RABISCO.csprojAssemblyReference.cache
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.Login.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.Properties.Resources.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO E RABISCO.csproj.GenerateResource.cache
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO E RABISCO.csproj.CoreCompileInputs.cache
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO E RABISCO.exe
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO E RABISCO.pdb
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.MenuADM.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.Editor.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.Produção.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.MenuFun.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.Financeiros.resources
+C:\Users\Jéssica\Desktop\ADS\Risco c#\RISCO E RABISCO\RISCO E RABISCO\obj\Debug\RISCO_E_RABISCO.Status.resources

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFE6831D-7514-4EB1-B6D0-B04249098DF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RISCO_E_RABISCO</RootNamespace>
+    <AssemblyName>RISCO E RABISCO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor.Designer.cs">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financeiros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financeiros.Designer.cs">
+      <DependentUpon>Financeiros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuADM.Designer.cs">
+      <DependentUpon>MenuADM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuFun.Designer.cs">
+      <DependentUpon>MenuFun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produção.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produção.Designer.cs">
+      <DependentUpon>Produção.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RISCOERABISCODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RISCOERABISCODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status.Designer.cs">
+      <DependentUpon>Status.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Editor.resx">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financeiros.resx">
+      <DependentUpon>Financeiros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuADM.resx">
+      <DependentUpon>MenuADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuFun.resx">
+      <DependentUpon>MenuFun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produção.resx">
+      <DependentUpon>Produção.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Status.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RISCOERABISCODataSet.xsc">
+      <DependentUpon>RISCOERABISCODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RISCOERABISCODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RISCOERABISCODataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RISCOERABISCODataSet.xss">
+      <DependentUpon>RISCOERABISCODataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\risco2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\Produtos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\Produção.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\Estoque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\Finacieros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\Sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgens\risco.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
